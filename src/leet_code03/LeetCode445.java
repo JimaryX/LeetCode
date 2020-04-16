@@ -19,8 +19,8 @@ public class LeetCode445 {
 		ListNode ans = null;
 		ListNode pre = null;
 		int curr = 0;
-		Stack stack1 = new Stack<Integer>();
-		Stack stack2 = new Stack<Integer>();
+		Stack<Integer> stack1 = new Stack<>();
+		Stack<Integer> stack2 = new Stack<>();
 		while (l1 != null || l2 != null) {
 			if (l1 != null) {
 				stack1.push(l1.val);
